@@ -553,7 +553,7 @@ class TetrillerRoot(BoxLayout):
         self.level = 1
         self.panel.score_lbl.text = "Score: 0"
         self.panel.level_lbl.text = "Level: 1"
-        self.panel.lives_lbl.text = "Lives: ♥♥♥"
+        self.panel.lives_lbl.text = "Lives: <3<3<3"
         self.game.fall_speed = 0.6
         self._reset_field()
 
